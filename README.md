@@ -1,5 +1,5 @@
 
-# Pyxodr - Read opendrive with python parser
+# Pyxodr - Read opendrive with python/c++ parser
 This project is fork from [here](https://github.com/javedulu/ad-xolib) with some modification for utf-8 based user. Also, test building the python API with python 3.8 (built test with VS2017, VS2019 in Windows 10).
 
 C++ library for Parsing OpenScenario (1.0.0) & OpenDrive format files (1.6) with Python bindings for 3.+ 
@@ -27,7 +27,7 @@ Specification](https://www.asam.net/index.php?eID=dumpFile&t=f&f=3496&token=df4f
 ## Getting started <a name="started"></a>
 The project is compiled with c++14 enabled compiler, choose your stack accordingly .
 
-#### Build from Source <a name="build"></a>
+#### Build from Source <a name="build"></a> for C++ and pybind
 
 ```bash
 git clone https://github.com/moonstarsky37/ad-xolib
@@ -40,7 +40,7 @@ cmake . -B build # it will create a folder named "build", if not, created by "mk
 cmake . --target build
 
 ```
-
+#### Build for python
 To now, you will create a folder named build with following code.
 
 ![](https://i.imgur.com/O0cZZGC.png)
